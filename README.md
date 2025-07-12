@@ -1,7 +1,7 @@
 # UnifiedLinkManager
 UnifiedLinkManager streamlines link management by scraping, parsing, and removing duplicate URLs, then categorizing them efficiently.
 Designed for educational and research use, it provides a structured, easy-to-use system to collect, clean, and organize links, ensuring a reliable and well-maintained repository.
-#Browser_Scraper
+# Browser_Scraper
 Key Technical Details:
 Brave Browser Path:
 The script explicitly sets the path to the Brave browser executable. You need to ensure this path matches where Brave is installed on your system.
