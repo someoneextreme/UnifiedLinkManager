@@ -1,0 +1,9 @@
+Educational Use License
+
+Copyright (c) 2025 Antonis Vekinis
+
+This software and associated documentation (the "Software") are provided for educational purposes only. The Software may not be used, in whole or in part, for any commercial, business, or for-profit purposes. Redistribution of the Software, with or without modification, is permitted only if it includes this license and retains the copyright notice. The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to warranties of merchantability or fitness for a particular purpose.
+
+For any other uses, including commercial licensing or broader redistribution, you must obtain written permission from the author.
+
+Contact: antonis.vekinis2@gmail.com
