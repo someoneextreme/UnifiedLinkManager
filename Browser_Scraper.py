@@ -81,16 +81,16 @@ def get_bing_results(query, num_results=200):
                 driver.execute_script("arguments[0].click();", next_btn)
                 time.sleep(2)
         except Exception as e:
-            print(f"⚠️ No more pages or failed to navigate: {e}")
+            print(f"No more pages or failed to navigate: {e}")
             break
 
     driver.quit()
     return results[:num_results]
 
 def main():
-    print("🔍 Bing Search Scraper (Brave Browser)")
-    query = input("🔍 Enter search term: ")
-    num = int(input("🔢 Number of results to scrape: "))
+    print("Search Scraper (Brave Browser)")
+    query = input(" Enter search term: ")
+    num = int(input(" Number of results to scrape: "))
 
     results = get_bing_results(query, num)
 
@@ -99,9 +99,9 @@ def main():
         with open(save_path, "w", encoding="utf-8") as f:
             for i, (title, link) in enumerate(results, 1):
                 f.write(f"{i}. {title}\n{link}\n\n")
-        print(f"✅ Saved {len(results)} results to: {save_path}")
+        print(f"Saved {len(results)} results to: {save_path}")
     else:
-        print("❌ No results found or scraping failed.")
+        print("No results found or scraping failed.")
 
 if __name__ == "__main__":
     main()
